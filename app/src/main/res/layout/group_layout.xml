@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/linear_names_group"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:minWidth="200dp"
+        android:minHeight="200dp"
+        android:orientation="vertical"
+        android:background="@drawable/rectangle">
+
+        <TextView
+            android:id="@+id/name_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="@string/guia_docente" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="3dp"
+            android:paddingRight="3dp">
+
+            <Button
+                android:id="@+id/join_button"
+                android:autoSizeTextType="uniform"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:layout_centerInParent="true"
+                android:text="@string/unirse"
+                android:gravity="center"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Practicas UPM</string>
+    <string name="email_matricula">Email o Matrícula</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="registrer">Register</string>
+    <string name="url">http://10.150.164.236:3000/</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_search">Invite Friend</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_my_account">My Account</string>
+    <string name="menu_calendar">Calendar</string>
+    <string name="menu_my_subjects">My Subjects</string>
+    <string name="menu_inbox">Inbox</string>
+    <string name="menu_close_session">Close Session</string>
+    <string name="menu_update">Update</string>
+
+    <string name="university_name">Universidad Politécnica de Madrid</string>
+    <string name="today">TODAY</string>
+    <string name="latest_notices">LATEST NOTICES</string>
+
+    <string name="close_session">Close session</string>
+
+    <string name="opening_creation_groups">OPENING OF GROUP IN </string>
+    <string name="closing_creation_groups">CLOSING OF GROUP IN </string>
+    <string name="practica_delivery">PRACTICA DELIVERY</string>
+
+    <string name="task">TASKS</string>
+
+    <string name="student_name">Student Name</string>
+    <string name="registration_number">Registration Number</string>
+    <string name="email">Email</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+
+    <string name="wrong_password">Wrong Password</string>
+    <string name="password_changed">Password changed</string>
+    <string name="something_was_wrong">Something was wrong</string>
+
+    <string name="guia_docente">Guia Docente</string>
+    <string name="enuncido_practica">Enunciado</string>
+    <string name="unirse">Unirse</string>
+    <string name="invitar">Invitar</string>
+
+    <string name="notification_title">Please ATTENTION</string>
+    <string name="Tomorrow">TOMORROW IS THE</string>
+
+</resources>

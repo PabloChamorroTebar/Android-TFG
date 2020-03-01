@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/rectangle_inbox"
+    android:layout_margin="1dp">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/profile"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:maxHeight="10dp"/>
+
+    <TextView
+        android:id="@+id/message_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:text="Nombre"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/message_inbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:text="Me gustaría que se uniese a mi grupo en la práctica Tester"
+        android:textSize="12dp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/accept_invitation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="2dp"
+        android:background="#3B83BD"
+        android:minHeight="20dp"
+        android:text="Aceptar"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/deny_invitation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="2dp"
+        android:background="#FF0000"
+        android:minHeight="20dp"
+        android:text="Cancelar"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>
